@@ -10,7 +10,7 @@ function mostFrequent(array){
   let maxValue = 0; 
   let lookup = [];
   
-	array.map(x => {
+  array.map(x => {
     if(lookup[x] === undefined){
       lookup[x] = 1; 
     }
