@@ -15,7 +15,7 @@ function mostFrequent(array){
       lookup[x] = 1; 
     }
     else{
-    	lookup[x]++;
+      lookup[x]++;
     }
     
      if(lookup[x] > maxValue){
