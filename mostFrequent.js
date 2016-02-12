@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Return the most frequent item in the given array 
+ * Return the most frequent item in the given array.  
  * @param  {Array} array Input array 
  * @return The value most repeated in the array 
  */
@@ -27,14 +27,7 @@ function mostFrequent(array){
   return currentBestIndex; 
 }
 
-/**
- * Find all pairs of integers whose sum is ten
- * @param  {[type]} array [description]
- * @return        [description]
- */
-function pairsSum10(array){
 
-}
-
-
+//Tests 
+// console.log(mostFrequent([5,4,3]));
 
