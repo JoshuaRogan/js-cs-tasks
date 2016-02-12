@@ -27,7 +27,3 @@ function mostFrequent(array){
   return currentBestIndex; 
 }
 
-
-//Tests 
-// console.log(mostFrequent([5,4,3]));
-

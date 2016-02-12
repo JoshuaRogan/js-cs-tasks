@@ -6,6 +6,7 @@
  */
 function pairsSum10(array){
     let result = []; 
+
     
 }
 
