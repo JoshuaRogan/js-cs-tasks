@@ -10,14 +10,6 @@
 'use strict';
 
 /**
- * 
- *
- * 
- * @param  {Array} array Input array 
- * @return The value most repeated in the array 
- */
-
-/**
  * Return a either a shorter compressed string (a2b3b2a1) or the original string
  *
  * Runtime: O(n) 
