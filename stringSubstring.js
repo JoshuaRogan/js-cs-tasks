@@ -12,6 +12,17 @@
 String.prototype.contains = naiveContains;
 
 
+String.prototype.eitherSubstring = function(compareTo){
+    let check = this.length > compareTo.length;
+    let longerString = check ? this : compareTo; 
+    let shorterString = check ? compareTo : this;
+    return longerString.contains(shorterString);  
+};
+
+
+
+
+
 //Naive brute force approach = O(n^2)
 function naiveContains(compareTo){
     //Quick Checks
@@ -54,7 +65,17 @@ function smarterContains(compareTo){
     }
 }
 
-console.log('123456789'.contains('6789'));
+
+
+
+// console.log(eitherSubstring('ccat', 'cat')); 
+// 
+// console.log('ccat'.contains('ccatt'));
+// console.log('ccat'.eitherSubstring('ccatt'));
+
+// console.log(eitherSubstring('mother', 'other')); 
+
+// console.log('123456789'.contains('6789'));
 
 
 // console.log('ccat'.contains('cat'));
