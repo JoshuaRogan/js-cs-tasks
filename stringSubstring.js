@@ -60,9 +60,7 @@ function naiveContains(compareTo){
 
 //Make it faster 
 function smarterContains(compareTo){
-    function traverse(){
-
-    }
+ 
 }
 
 
