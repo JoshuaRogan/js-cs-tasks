@@ -9,8 +9,8 @@ function mostFrequent(array){
   let currentBestIndex = -1;
   let maxValue = 0; 
   let lookup = [];
-  
-  array.map(x => {
+
+  for(let x of array){
     if(lookup[x] === undefined){
       lookup[x] = 1; 
     }
@@ -22,8 +22,8 @@ function mostFrequent(array){
           currentBestIndex = x;
           maxValue = lookup[x];
      }
-
-  });
+  }
+  
   return currentBestIndex; 
 }
 
